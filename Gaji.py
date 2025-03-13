@@ -7,11 +7,11 @@ gol = input("masukan gol anda (A/B/C): ")
 if status.lower() == "pegawai tetap":
     gajinya = 1000000
     if gol.lower() == "a":
-        bonus = 150000
+        bonus = 200000
     elif gol.lower() == "b":
-        bonus = 275000
+        bonus = 400000
     elif gol.lower() == "c":
-        bonus = 480000
+        bonus = 550000
 elif status.lower() == "honor":
     gajinya = 750000
     if gol.lower() == "a":
